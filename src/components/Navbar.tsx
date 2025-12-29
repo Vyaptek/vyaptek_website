@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <a href="#" className="logo">
-          <img src="/Vyaptek_logo.svg" alt="Vyaptek Logo" className="brand-logo" />
+          <img src="./Vyaptek_logo.svg" alt="Vyaptek Logo" className="brand-logo" />
           <span>Vyaptek</span>
         </a>
 

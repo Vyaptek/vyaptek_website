@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-grid">
                     <div className="footer-brand">
-                        <h2><img src="/Vyaptek_logo.svg" alt="Vyaptek Logo" className="brand-logo-footer" /> Vyaptek</h2>
+                        <h2><img src="./Vyaptek_logo.svg" alt="Vyaptek Logo" className="brand-logo-footer" /> Vyaptek</h2>
                         <p>
                             Empowering healthcare institutions with next-generation ERP solutions.
                             Simple, Secure, Smart.

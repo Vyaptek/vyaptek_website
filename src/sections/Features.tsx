@@ -21,7 +21,7 @@ const Features: React.FC<FeaturesProps> = ({ title, subtitle, items }) => {
                     transition={{ duration: 0.8 }}
                 >
                     <video
-                        src="/dummy-asset-video.mp4"
+                        src="./dummy-asset-video.mp4"
                         autoPlay
                         loop
                         muted
