@@ -16,12 +16,12 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .brand-logo-footer {
-    height: 80px;
+    height: 100px;
     width: auto;
     filter: brightness(0) invert(1);
     /* Make it white for footer */
