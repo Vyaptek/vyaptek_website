@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import DownloadButton from './DownloadButton';
 import './Navbar.css';
 
 interface NavbarProps {
@@ -43,7 +44,8 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           <li><a href="#home" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Home</a></li>
           <li><a href="#modules" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Modules</a></li>
           <li><a href="#features" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Features</a></li>
-          <li><a href="#contact" className="btn btn-secondary" onClick={handleRequestDemo}>Request Demo</a></li>
+          <li><a href="#contact" className="btn btn-outline" onClick={handleRequestDemo}>Request Demo</a></li>
+          <li><DownloadButton className="btn btn-secondary" /></li>
         </ul>
       </div>
     </nav>

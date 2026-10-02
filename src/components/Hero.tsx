@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, PlayCircle } from 'lucide-react';
 import { HeroConfig } from '../types';
+import DownloadButton from './DownloadButton';
 import './Hero.css';
 
 interface HeroProps {
@@ -22,7 +23,8 @@ const Hero: React.FC<HeroProps> = ({ config, onOpenEnquiry }) => {
                     <h1>{config.title}</h1>
                     <p>{config.subtitle}</p>
                     <div className="hero-actions">
-                        <button onClick={onOpenEnquiry} className="btn btn-primary">
+                        <DownloadButton className="btn btn-primary" />
+                        <button onClick={onOpenEnquiry} className="btn btn-outline">
                             {config.ctaPrimary} <ArrowRight size={20} style={{ marginLeft: '8px' }} />
                         </button>
                         <a href="#demo" className="btn btn-outline">

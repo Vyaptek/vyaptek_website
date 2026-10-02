@@ -1,0 +1,17 @@
+.download-btn {
+    gap: 0.5rem;
+}
+
+.download-btn-spin {
+    animation: download-btn-spin 1s linear infinite;
+}
+
+@keyframes download-btn-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
